@@ -148,7 +148,7 @@ minetest.register_craftitem("pizza:margherita", {
 	description = "Pizza margherita slice",
 	inventory_image = "pizza_margherita_slice.png",
 	stack_max = 8,
-	on_use = minetest.item_eat(18),
+	on_use = minetest.item_eat(10),
 })
 
 minetest.register_craft({

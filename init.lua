@@ -29,8 +29,6 @@ minetest.override_item("pizza:tomato", {
     on_use = minetest.item_eat(2),
 })
 
-hbhunger.register_food("pizza:tomato", 2)
-
 minetest.register_node("pizza:tomato_sauce", {
 	description = "Tomato sauce",
 	drawtype = "plantlike",
@@ -162,6 +160,7 @@ minetest.register_craft({
 
 if minetest.get_modpath("hbhunger") ~= nil then
 	hbhunger.register_food("pizza:margherita", 3)
+	hbhunger.register_food("pizza:tomato", 2)
 end
 
 
